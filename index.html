@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeros Auxilios</title>
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,200..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- scripts -->
+    <script src="js/manejoPanelCatalogo.js" defer></script>
+    <!-- css personalizado -->
+    <link rel="stylesheet" href="css/estiloIndex.css">
+</head>
+<body>
+    <div class="barraPrincipal">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+        <h1>Primeros Auxilios</h1>
+    </div>
+
+    <div class="barraCatalogo">
+        <p data-target="#contenidoCatalogoServidores">Servidores</p>
+        <p data-target="#contenidoCatalogoEstadisticas">Estadísticas</p>
+    </div>
+
+    <div class="contenidoPanelCatalogo">
+        <div data-content id="contenidoCatalogoServidores">
+            <div class="barraCatalogoServidores">
+                <div class="etiquetaServidor">
+                    <label for="radioSGA">SGA</label>
+                    <label for="radioTagPatrol">TagPatrol</label>
+                    <label for="radioCajas">Cajas</label>
+                </div>
+            </div>
+
+            <div class="contenidoBarraCatalogoServidores">
+                <input type="radio" name="radio" id="radioSGA">
+                <div class="panelSGA">
+                    <h1>SGA</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ciente</th>
+                                <th>FrontEnd</th>
+                                <th>Servicios</th>
+                                <th>Tipo de Servidor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>cliente00</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                                                        <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente01</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente02</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                <span class="botonesTablaFrontEnd">
+                                    <a class="botonReinicio" href="#">↻</a>
+                                    <a class="botonEncendido" href="#">▶︎</a>
+                                    <a class="botonApagado" href="#">◼</a>
+                                </span></td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <input type="radio" name="radio" id="radioTagPatrol">
+                <div class="panelTagPatrol">
+                    <h1>TagPatrol</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ciente</th>
+                                <th>FrontEnd</th>
+                                <th>Servicios</th>
+                                <th>Tipo de Servidor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>cliente00</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                                                        <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente01</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente02</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                <span class="botonesTablaFrontEnd">
+                                    <a class="botonReinicio" href="#">↻</a>
+                                    <a class="botonEncendido" href="#">▶︎</a>
+                                    <a class="botonApagado" href="#">◼</a>
+                                </span></td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <input type="radio" name="radio" id="radioCajas">
+                <div class="panelCajas">
+                    <h1>Cajas</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ciente</th>
+                                <th>FrontEnd</th>
+                                <th>Servicios</th>
+                                <th>Tipo de Servidor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>cliente00</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                                                        <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente01</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>cliente02</td>
+                                <td>
+                                    <span class="botonesTablaFrontEnd">
+                                        <a class="botonReinicio" href="#">↻</a>
+                                        <a class="botonEncendido" href="#">▶︎</a>
+                                        <a class="botonApagado" href="#">◼</a>
+                                    </span>
+                                </td>
+                                <td>
+                                <span class="botonesTablaFrontEnd">
+                                    <a class="botonReinicio" href="#">↻</a>
+                                    <a class="botonEncendido" href="#">▶︎</a>
+                                    <a class="botonApagado" href="#">◼</a>
+                                </span></td>
+                                <td>
+                                    <span class="material-symbols-outlined">
+                                        pets
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                            sailing
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div data-content id="contenidoCatalogoEstadisticas">
+            <p>contenido estadisticas</p>
+        </div>
+    </div>
+</body>
+</html>
